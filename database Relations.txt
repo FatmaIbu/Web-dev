@@ -1,0 +1,6 @@
+
+•  A User can place multiple Orders (One-to-Many). 
+•  A User can write multiple Reviews, but a review belongs to one user (One-to-Many). 
+•  A Product belongs to one Category, but a category can have many products (One-to-Many). 
+•  A Product can have multiple Reviews, but each review belongs to one product (One-to-Many). 
+•  An Order contains multiple Products, and a Product can be in multiple orders (Many-to-Many with a junction table).
